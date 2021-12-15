@@ -120,6 +120,11 @@ td.soon:nth-child(1)::before {
 	background: #140D4F;
 	color: #F9EC28;
 }
+.train {
+	padding: 0 3px;
+	background: #000096;
+	color: #FFF;
+}
 
 @media (max-width: 1280px) {
 	body { overflow: hidden; }

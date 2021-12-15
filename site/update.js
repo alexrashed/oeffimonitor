@@ -146,6 +146,8 @@ function addDeparture(departure) {
     line = '<span class="bus">' + line + '</span>';
   } else if (type === 'ptBusNight') {
     line = '<span class="nightline">' + line + '</span>';
+  } else if (type === 'TRAIN') {
+    line = '<span class="train">' + line + '</span>';
   }
 
   var timeString = '<b>' + addZeroBefore(departureTime.getHours()) +
