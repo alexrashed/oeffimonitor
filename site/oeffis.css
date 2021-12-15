@@ -11,8 +11,8 @@
 body {
 	margin:0;
 	font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-	background-color: black;
-	color: #eee;
+	background-color: white;
+	color: black;
 }
 
 h1 { margin: 20px; }
@@ -62,8 +62,8 @@ table {
 }
 
 thead { font-weight: bold; }
-tbody > tr:nth-child(2n) { background: #222; }
-tbody > tr:nth-child(2n+1) { background: #333; }
+tbody > tr:nth-child(2n) { background: rgb(212, 212, 212); }
+tbody > tr:nth-child(2n+1) { background: rgb(182, 182, 182); }
 td { border: none; }
 tr > td:nth-child(1) { text-align: center; }
 
