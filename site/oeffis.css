@@ -62,8 +62,10 @@ table {
 }
 
 thead { font-weight: bold; }
-tbody > tr:nth-child(2n) { background: rgb(212, 212, 212); }
-tbody > tr:nth-child(2n+1) { background: rgb(182, 182, 182); }
+body { color: white; background:rgb(13, 0, 87) }
+tbody { font-size: 3em; font-weight: bold;}
+tbody > tr:nth-child(2n) { background: rgb(10, 41, 128); }
+tbody > tr:nth-child(2n+1) { background: rgb(13, 0, 87); }
 td { border: none; }
 tr > td:nth-child(1) { text-align: center; }
 
@@ -94,7 +96,7 @@ td.time:nth-child(1)::before {
 td.hurry:nth-child(1)::before {
 	animation: blink 1s steps(5, start) infinite;
 	-webkit-animation: blink 1s steps(5, start) infinite;
-	color: #c0392b;
+	color: #fdec00;
 	opacity:1;
 }
 td.soon:nth-child(1)::before {
